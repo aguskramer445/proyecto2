@@ -61,10 +61,12 @@ html, body{
     height: 100%;
 }
 
-.fila-movimientos button{
+.fila-movimiento button{
     width: 48%;
-    margin: 0 0 3rem 0 0 0.3rem;
-    padding: 0 0.5rem 0 0.5rem;
+    margin:  0.3rem 0.3rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    transition: all 0.5s;
 }
 
 .btn-info{
@@ -72,4 +74,13 @@ html, body{
     border: none;
     color: #009ee3;
     font-weight: bold;
+}
+
+.fila-movimiento button:hover{
+    background-color: #17a2dd;
+    color: white;
+}
+
+.navbar .derecha button:hover{
+    background-color: #3e84a1;
 }
